@@ -1,2 +1,2 @@
 # mtask
-Official repository for multitask deep learning models developed for toxicity data obtained from ChemIDPlus database.
+Official repository for multitask deep learning models developed using toxicity data obtained from ChemIDPlus database.
