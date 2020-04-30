@@ -53,15 +53,12 @@ input_dim = X_train.shape[1]
 model = Sequential()
 
 model = Sequential([
-        Dense(2000, input_dim=input_dim, kernel_initializer='normal', activation='selu'),
+        Dense(2000, input_dim=input_dim, kernel_initializer='normal', activation='relu'),
 	#BatchNormalization(),
-	Dropout(0.2),
-        Dense(700, kernel_initializer='normal', activation='selu'),
+        Dense(700, kernel_initializer='normal', activation='relu'),
         #BatchNormalization(),
-	Dropout(0.2),
-        Dense(500, kernel_initializer='normal', activation='selu'),
+        Dense(500, kernel_initializer='normal', activation='relu'),
         #BatchNormalization(),
-	Dropout(0.2),
         Dense(tasks, kernel_initializer='normal', activation='linear')])
 
 
