@@ -1,5 +1,5 @@
 # mtask
-This repository contains multitask deep learning models developed using acute toxicity data obtained from ChemIDPlus, primarily focusing on the endpoints: lethal dose fifty (LD<sub>50</sub>); lethal dose low (LDLO); and toxic dose low (TDLO).
+This repository contains multitask deep learning models developed using acute toxicity data, primarily focusing on the endpoints: lethal dose fifty (LD<sub>50</sub>); lethal dose low (LDLO); and toxic dose low (TDLO). Please note that the data was obtained from [ChemIDPlus](https://chem.nlm.nih.gov/chemidplus/). However, neither ChemIDplus nor NLM endorse the developed models and the associated publication.
 
 ## Results
 
