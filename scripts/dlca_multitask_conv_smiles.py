@@ -1,4 +1,4 @@
-# This is a modified version of the DLCA architecture previosuly proposed by Zakharov et al.
+# This is a modified version of the DLCA architecture previously proposed by Zakharov et al.
 
 # More details about DLCA architecture can be found at https://doi.org/10.1021/acs.jcim.9b00526
 
