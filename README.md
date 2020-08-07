@@ -11,25 +11,25 @@ species | route | cpds (ours) | cpds (Sosnin *et al*) | score (ours) | score<sup
 mouse | intraperitoneal | 36295 | 37202 | 0.41 | 0.41 |
 mouse | oral | 23373 | 24355 | 0.39 | 0.42 |
 mouse | intravenous | 16978 | 17742 | 0.43 | 0.43 |
-rat | oral | 10190 | 10743 | 0.52 | 0.63 |
+rat | oral | 10190 | 10743 | 0.52 | 0.53 |
 mouse | subcutaneous | 6769 | 7221 | 0.51 | 0.51 |
-rat | intraperitoneal | 5021 | 5041 | 0.52 | 0.53 |
-rat | intravenous | 2472 | 2538 | 0.52 | 0.64 |
-rat | subcutaneous | 1896 | 2014 | 0.63 | 0.58 |
+rat | intraperitoneal | 5021 | 5041 | 0.52 | 0.55 |
+rat | intravenous | 2472 | 2538 | 0.52 | 0.54 |
+rat | subcutaneous | 1896 | 2014 | 0.63 | 0.64 |
 mouse | unreported | 1739 | 1804 | 0.47 | 0.51 |
-rabbit | skin | 1495 | 1734 | 0.53 | 0.54 |
+rabbit | skin | 1495 | 1734 | 0.53 | 0.56 |
 mammal<sup>b</sup>| unreported | 1129 | 1121 | 0.42 | 0.40 |
-rabbit | oral | 894 | 910 | 0.58 | 0.43 |
-rat | skin | 835 | 930 | 0.61 | 0.68 |
-rat | unreported | 806 | 838 | 0.58 | 0.56 |
-guinea pig | oral | 793 | 799 | 0.59 | 0.55 |
-rabbit | intravenous | 792 | 764 | 0.66 | 0.70 |
-rat | oral | 322 | 966 | 0.63 | 0.60 |
-rat | intraperitoneal | 318 | 1029 | 0.52 | 0.61
+rabbit | oral | 894 | 910 | 0.58 | 0.58 |
+rat | skin | 835 | 930 | 0.61 | 0.63 |
+rat | unreported | 806 | 838 | 0.58 | 0.60 |
+rabbit | intravenous | 792 | 764 | 0.59 | 0.68 |
+guinea pig | oral | 793 | 799 | 0.66 | 0.70 |
+rat | oral | 322 | 966 | 0.63 | 0.61 |
+rat | intraperitoneal | 318 | 1029 | 0.52 | 0.43
 
 <sup>a</sup> the scores are from the supplementary information of the original article; <sup>b</sup> the mammalian species and route are unspecified
 
 ## Other Models
 
-We also report single-task models using baseline methods: random forest and deep neural networks. The scripts used for modeling can be found under `scripts\`. An example `notebooks/create_fold_data.ipynb` to create the training and test sets by joining the descriptors and task details for different folds of cross-validation is provided.
+We also report single-task models using baseline methods: random forest and deep neural networks. The scripts used for modeling can be found under `scripts/`. An example `notebooks/create_fold_data.ipynb` to create the training and test sets by joining the descriptors and task details for different folds of cross-validation is provided.
 
