@@ -1,4 +1,4 @@
-# mtask
+# Large-scale Modeling of Multi-Species Acute Toxicity Endpoints using Consensus of Multi-Task Deep Learning Methods
 This repository contains multitask deep learning models developed using acute toxicity data, primarily focusing on the endpoints: lethal dose fifty (LD<sub>50</sub>); lethal dose low (LDLO); and toxic dose low (TDLO). Please note that the data was obtained from [ChemIDPlus](https://chem.nlm.nih.gov/chemidplus/). However, neither ChemIDplus nor NLM endorse the developed models and the associated publication.
 
 ## Results
