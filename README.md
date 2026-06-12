@@ -1,3 +1,5 @@
+This repository has been archived and is no longer maintained.The code is provided for historical reference and may contain unpatched or unknown vulnerabilities. It should not be used in production systems.
+
 # Large-scale Modeling of Multi-Species Acute Toxicity Endpoints using Consensus of Multi-Task Deep Learning Methods
 This repository contains multitask deep learning models developed using acute toxicity data, primarily focusing on the endpoints: lethal dose fifty (LD<sub>50</sub>); lethal dose low (LDLO); and toxic dose low (TDLO). Please note that the data was obtained from [ChemIDPlus](https://chem.nlm.nih.gov/chemidplus/).
 
@@ -32,4 +34,3 @@ rat | intraperitoneal | 318 | 1029 | 0.52 | 0.43
 ## Other Models
 
 We also report single-task models using baseline methods: random forest and deep neural networks. The scripts used for modeling can be found under `scripts/`. An example `notebooks/create_fold_data.ipynb` to create the training and test sets by joining the descriptors and task details for different folds of cross-validation is provided.
-
